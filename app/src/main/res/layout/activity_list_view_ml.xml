@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFEB3B"
+    android:padding="5sp"
+    tools:context=".ListViewML">
+
+
+    <ListView
+        android:id="@+id/listMovie"
+        android:divider="@color/black"
+        android:dividerHeight="2sp"
+        android:listSelector="#EFC034"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+
+
+</LinearLayout>
